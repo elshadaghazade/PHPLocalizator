@@ -59,3 +59,7 @@ echo $var->get("ExampleFolder/example/third_word", "Stive", "Jobs");
 ```
 
 Example video: [https://www.youtube.com/watch?v=YJkRfH4Dq2I](https://www.youtube.com/watch?v=YJkRfH4Dq2I)
+
+## Related links
+See documentation of PHP-CPP library: <a href="http://www.php-cpp.com/documentation">PHP-CPP documentation</a>
+PHPLocalizator related article: <a href="http://elshadaghazade.info/blog/internationalization-at-the-PHP-projects-PHPLocalizator-extension-introduction-VIDEO/">INTERNATIONALIZATION AT THE PHP PROJECTS (PHPLOCALIZATOR EXTENSION INTRODUCTION) + VIDEO</a>
