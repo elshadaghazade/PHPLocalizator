@@ -18,7 +18,7 @@ The XML files ierarchy example.
 
 ![alt tag](http://elshadaghazade.info/images/content/folder-ierarchy.jpg)
 
-The xml file structure should be like this:
+The xml file structure should looks like this:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -57,3 +57,6 @@ echo $var->get("ExampleFolder/example/second_word", "Stive");
 echo $var->get("ExampleFolder/example/third_word", "Stive", "Jobs");
 
 ```
+
+Testing video
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YJkRfH4Dq2I/0.jpg)](https://www.youtube.com/watch?time_continue=171&v=YJkRfH4Dq2I)
