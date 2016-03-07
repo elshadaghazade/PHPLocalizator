@@ -18,6 +18,26 @@ The XML files ierarchy example.
 
 ![alt tag](http://elshadaghazade.info/images/content/folder-ierarchy.jpg)
 
+The xml file structure should be like this:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+    <contents>
+        <description>This file keeps warning messages</description>
+        <element>
+            <name>login_failed</name>
+            <value>You can not logged in. Try again!</value>
+        </element>
+        <element>
+            <name>captcha_is_wrong</name>
+            <value>The captcha code is wrong</value>
+        </element>
+        ....
+    </contents>
+```
+
+How to use in PHP:
+
 ```php
 // Creating the object
 $var = new PHPLocalizator();
