@@ -58,5 +58,4 @@ echo $var->get("ExampleFolder/example/third_word", "Stive", "Jobs");
 
 ```
 
-Testing video
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YJkRfH4Dq2I/0.jpg)](https://www.youtube.com/watch?time_continue=171&v=YJkRfH4Dq2I)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YJkRfH4Dq2I/0.jpg)](https://www.youtube.com/watch?v=YJkRfH4Dq2I)
