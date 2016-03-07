@@ -14,7 +14,7 @@ This extension written in C++ based on the PHP-CPP library. For more information
 
 ### Usage example
 
-The XML files ierarchy
+The XML files ierarchy example.
 
 ![alt tag](http://elshadaghazade.info/images/content/folder-ierarchy.jpg)
 
@@ -25,8 +25,11 @@ $var->setFolderPath("/var/www/mywebproject/localization")
     ->setLocale("ru-RU")
     ->setSpecialKey("{%w}");
 
+// simple phrase
 echo $var->get("ExampleFolder/example/first_word");
+// phrase with one variable
 echo $var->get("ExampleFolder/example/second_word", "Stive");
+// phrase with two variable
 echo $var->get("ExampleFolder/example/third_word", "Stive", "Jobs");
 
 ```
