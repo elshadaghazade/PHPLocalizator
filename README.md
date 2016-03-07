@@ -23,14 +23,18 @@ The xml file structure should be like this:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
     <contents>
-        <description>This file keeps warning messages</description>
+        <description>This file keeps sample messages</description>
         <element>
-            <name>login_failed</name>
-            <value>You can not logged in. Try again!</value>
+            <name>first_word</name>
+            <value>You are welcome!</value>
         </element>
         <element>
-            <name>captcha_is_wrong</name>
-            <value>The captcha code is wrong</value>
+            <name>second_word</name>
+            <value>Dear {%w}, You are welcome!</value>
+        </element>
+        <element>
+            <name>third_word</name>
+            <value>Dear {%w} {%w}, You are welcome!</value>
         </element>
         ....
     </contents>
